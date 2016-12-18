@@ -1,0 +1,14 @@
+galaxy_info:
+  author: Kai Möller / cheGGo
+  description: Ansible role that install a rancher-server via docker on ubuntu systems
+  license: BSD
+  min_ansible_version: 2.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+    - xenial
+  categories:
+  - system
+  galaxy_tags: [ "docker", "rancher"]
+dependencies: []
